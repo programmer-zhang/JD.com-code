@@ -1,0 +1,121 @@
+
+
+.login-header{
+    height: 60px;
+    /*background-color: blue;*/
+    margin-top: 20px;
+}
+
+.login-header div{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.login-header div img{
+    vertical-align: middle;
+}
+
+.login-content{
+    height: 475px;
+    background-color: #e93854;
+}
+
+.login-content .login-content-box{
+    width: 990px;
+    height: 475px;
+    margin: 0 auto;
+    background-image: url("../images/5731b427N2a98cb75.png");
+}
+
+.login-content .login-content-box div{
+    float: right;
+    width: 346px;
+    height: 300px;
+    background-color: #fff;
+    position: relative;
+    top: 80px;
+}
+
+.login-content .login-content-box div p{
+    display: inline-block;
+    width: 346px;
+    height: 60px;
+    line-height: 60px;
+    /*background-color: blue;*/
+    font-family: "Microsoft YaHei", 微软雅黑;
+    font-size: 22px;
+    color: #666;
+    border-bottom: solid 1px #c3c3c3;
+}
+
+.login-content .login-content-box div p:hover{
+    color: red;
+}
+
+.login-content .login-content-box div input{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.login-content .login-content-box div input:nth-of-type(1){
+    width: 280px;
+    height: 40px;
+    border: solid 1px #666;
+    margin-top: 30px;
+    color: #666666;
+    padding-left: 20px;
+}
+
+.login-content .login-content-box div input:nth-of-type(2){
+    width: 280px;
+    height: 40px;
+    border: solid 1px #666;
+    margin-top: 10px;
+    color: #666666;
+    padding-left: 20px;
+}
+
+.login-content .login-content-box div input:nth-of-type(3){
+    width: 300px;
+    height: 40px;
+    border: solid 1px red;
+    background-color: red;
+    margin-top: 20px;
+    font-family: "Microsoft YaHei", 微软雅黑;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.login-content .login-content-box div input:nth-of-type(4){
+    width: 300px;
+    height: 40px;
+    border: solid 1px red;
+    background-color: red;
+    margin-top: 10px;
+    font-family: "Microsoft YaHei", 微软雅黑;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.login-content .login-content-box div a{
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.login-footer{
+    height: 60px;
+    /*background-color: blue;*/
+}
+
+.login-footer p{
+    color: #666;
+    font-size: 16px;
+    font-family:"Microsoft YaHei", 微软雅黑;
+    text-align: center;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,123 @@
+
+/*购物车页面头部*/
+.cart-top{
+    width: 1190px;
+    height: 60px;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+
+.cart-top img{
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+.cart-top div{
+    height: 60px;
+    display: inline;
+    float: right;
+}
+
+.cart-top input{
+    float: left;
+    margin-top: 20px;
+}
+
+.cart-top div input:nth-of-type(1){
+    width:300px;
+    height: 20px;
+    border: solid 1px red;
+    font-size: 15px;
+    color: #999;
+}
+
+.cart-top div input:nth-of-type(2){
+    width: 50px;
+    height: 22px;
+    border: solid 1px red;
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 100px;
+
+}
+
+/*购物车页面尾部*/
+.cart-footer{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.cart-footer .cart-footer-img{
+    margin-left: 160px;
+}
+
+.cart-footer-info{
+    border-top: solid 5px red;
+    margin-top: 20px;
+}
+
+.cart-footer-info p{
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", 微软雅黑;
+    color: #666666;
+}
+
+.cart-footer-info .cart-footer-info-center{
+    margin:0 auto;
+}
+
+.cart-info{
+    width: 1000px;
+    margin-left: 170px;
+    margin-top: 20px;
+    font-family: "Microsoft YaHei", 微软雅黑;
+}
+
+
+.cart-info ul{
+    display: block;
+    width: 200px;
+    float: left;
+    font-size: 16px;
+    color: #666666;
+}
+
+.cart-info ul li{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #999;
+}
+.cart-footer .cart-footer-div{
+    display: inline-block;
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    width: 40px;
+    height: 35px;
+    background-color: #666;
+    text-align: center;
+    border: 2px solid #666666;
+    border-radius:10px;
+}
+
+.cart-footer .cart-footer-div:hover{
+    background-color: #c81623;
+    border: 2px solid #c81623;
+    border-radius:10px;
+}
+
+.cart-footer .cart-footer-div a{
+    color: #fff;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+
+
+

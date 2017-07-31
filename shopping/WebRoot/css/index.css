@@ -1,0 +1,254 @@
+
+
+body{
+    color: #d8d8d8;
+}
+/*公共shortcut部分*/
+.shortcut{
+    background-color:#e3e4e5;
+    height: 30px;
+}
+.public-shortcut{
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 1190px;
+}
+
+.public-shortcut .logo{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.public-shortcut ul{
+    float: right;
+}
+
+.public-shortcut li{
+    float: left;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: "微软雅黑" ;
+    line-height: 30px;
+}
+
+.public-shortcut a{
+    text-decoration: none;
+    color: #666;
+}
+
+
+
+.public-shortcut a:hover{
+    color: red;
+}
+
+/*公共头部部分*/
+.header{
+    height: 200px;
+    background-color: #f2f2f2;
+}
+
+.public-header{
+    text-align: center;
+    width: 1190px;
+    margin: 0 auto;
+    /*background: blue;*/
+
+}
+
+.public-header .searchtext{
+    width: 539px;
+    height: 40px;
+    margin-top: 50px;
+    border: 1px solid red;
+    font-family: 微软雅黑;
+    color: #999;
+}
+
+.public-header .searchbutton{
+    height: 41px;
+    width: 80px;
+    margin-top: 53px;
+    background-color: #f10215;
+    border: 1px solid #f10215;
+    color: white;
+    font-size: 20px;
+    font-family: 微软雅黑;
+}
+
+/*首页头部导航栏*/
+.header .public-header .nav{
+    display: block;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    margin-top: 55px;
+    margin-left: 200px;
+}
+
+.header .public-header .nav li{
+    float: left;
+    margin-left: 40px;
+    color: #666;
+}
+
+.header .public-header .nav li:hover{
+    color: red;
+}
+
+/*footer部分*/
+.footer{
+    background-color: #F2F2F2;
+}
+
+.public-footer{
+    display: block;
+    width: 1190px;
+    height: 300px;
+    /*background-color: red;*/
+    margin:0 auto;
+}
+
+.footer-t{
+    text-align: center;
+    border-top: 5px solid red;
+    padding-top: 50px;
+}
+
+.footer .public-footer .footer-t h3{
+    display: inline;
+    float: left;
+    margin-left:50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.footer .public-footer .footer-t ul{
+    display: inline;
+    font-size: 20px;
+    margin-left: 80px;
+    color: #000;
+    float: left;
+}
+
+.footer .public-footer .footer-t li{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666666;
+}
+
+.footer .public-footer .footer-t li:hover{
+    color: red;
+}
+
+.footer .footer-b{
+    display: block;
+    text-align: center;
+    color: #666666;
+    font-size: 20px;
+}
+
+
+/*以下是固定定位的快捷按钮部分*/
+.footer .footer-div{
+    display: inline-block;
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    width: 40px;
+    height: 35px;
+    background-color: #666;
+    text-align: center;
+    border: 2px solid #666666;
+    border-radius:10px;
+}
+
+.footer .footer-div:hover{
+    background-color: #c81623;
+    border: 2px solid #c81623;
+    border-radius:10px;
+}
+
+.footer .footer-div a{
+    color: #fff;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.footer .footer-div1{
+    display: inline-block;
+    position: fixed;
+    top: 500px;
+    right: 0px;
+    width: 34px;
+    height: 35px;
+    text-align: center;
+    border: 2px solid #666666;
+    border-radius:10px;
+    background:#666 -50px -50px url("../images/toolbars.png");
+}
+
+.footer .footer-div1:hover{
+    background-color: #c81623;
+    border: 2px solid #c81623;
+    border-radius:10px;
+}
+
+.footer .footer-div1 a{
+    color: #fff;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.footer .footer-div2{
+    display: inline-block;
+    position: fixed;
+    top: 460px;
+    right: 0px;
+    width: 34px;
+    height: 35px;
+    text-align: center;
+    border: 2px solid #666666;
+    border-radius:10px;
+    background:#666 -50px 0px url("../images/toolbars.png");
+}
+
+.footer .footer-div2:hover{
+    background-color: #c81623;
+    border: 2px solid #c81623;
+    border-radius:10px;
+}
+
+.footer .footer-div2 a{
+    color: #fff;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.footer .footer-div3{
+    display: inline-block;
+    position: fixed;
+    top: 420px;
+    right: 0px;
+    width: 34px;
+    height: 35px;
+    text-align: center;
+    border: 2px solid #666666;
+    border-radius:10px;
+    background:#666 -88px -175px url("../images/toolbars.png");
+}
+
+.footer .footer-div3:hover{
+    background-color: #c81623;
+    border: 2px solid #c81623;
+    border-radius:10px;
+}
+
+.footer .footer-div3 a{
+    color: #fff;
+    line-height: 35px;
+    text-decoration: none;
+}
